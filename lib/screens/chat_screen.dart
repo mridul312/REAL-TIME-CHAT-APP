@@ -28,7 +28,7 @@ class _ChatScreenState extends State<ChatScreen> {
   void getCurrentUser() async {
     //this is checking whether user is  register and present in database if it is present then
     try {
-      // loggin in user is that that user
+      // log in that user
       final user = await _auth.currentUser();
       if (user != null) {
         loggedInUser = user;
