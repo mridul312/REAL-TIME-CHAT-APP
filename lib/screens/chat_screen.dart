@@ -13,7 +13,7 @@ class ChatScreen extends StatefulWidget {
 }
 
 class _ChatScreenState extends State<ChatScreen> {
-  final messageTextController = TextEditingController();
+  final messageTextController =  TextEditingController(); //creates a controller for text editing field
   final _auth = FirebaseAuth.instance;
 
   String messageText;
